@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/PC/Documents/GitHub/new-unreal-project/fps_game_1/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
+				"C:/Users/PC/Documents/GitHub/new-unreal-project/fps_game_1/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/T1/R2R9WGC92IPNFB0G5JK2CS.uasset"
+			]
+		}
+	]
+}
