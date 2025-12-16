@@ -1534,3 +1534,47 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.16-14.59.57:146][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2025.12.16-14.59.57:157][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
 [2025.12.16-14.59.57:234][226]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: ================================================
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Total job queries 11,693, among them cache hits 2,035 (17.40%), DDC hits 6,430 (54.99%), Duplicates 665 (5.69%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Tracking 8,993 distinct input hashes that result in 8,497 distinct outputs (94.48%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: RAM used: 5.99 MiB of 3.20 GiB budget. Usage: 0.18%
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Shaders Compiled: 2,563
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Jobs assigned 2,563, completed 2,563 (100%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Average time worker was idle: 0.98 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Time job spent in pending queue: average 135.76 s, longest 284.66 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Job execution time: average 9.83 s, max 33.54 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Job life time (pending + execution): average 145.59 s, max 285.07
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Shader code size: average 22.805 KiB, min 2.105 KiB, max 154.941 KiB
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 299.89 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.06%
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Jobs were issued in 336 batches (only local compilation was used), average 7.63 jobs/batch
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Average processing rate: 8.55 jobs/sec
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Total thread time: 2,608.153 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Total thread preprocess time: 128.731 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Percentage time preprocessing: 4.94%
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Effective parallelization: 8.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    9 times, average 8.66 sec, max 9.70 sec, min 7.07 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 4.06 sec, max 7.95 sec, min 1.50 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   32 times, average 3.10 sec, max 6.35 sec, min 1.68 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled   72 times, average 2.89 sec, max 6.33 sec, min 1.99 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.72 sec, max 2.72 sec, min 2.72 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                             FDeferredLightPS - 28.09% of total time (compiled  454 times, average 1.61 sec, max 3.90 sec, min 1.21 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 13.46% of total time (compiled  480 times, average 0.73 sec, max 3.41 sec, min 0.31 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 7.97% of total time (compiled   72 times, average 2.89 sec, max 6.33 sec, min 1.99 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                                FOcclusionRGS - 7.44% of total time (compiled  192 times, average 1.01 sec, max 4.66 sec, min 0.54 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 5.65% of total time (compiled  256 times, average 0.58 sec, max 2.35 sec, min 0.42 sec)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: === Material stats ===
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Materials Translated:    137
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.12.16-15.02.04:319][361]LogShaderCompilers: Display: ================================================
+[2025.12.16-15.04.50:354][859]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 350.527863
+[2025.12.16-15.04.51:354][862]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.16-15.04.51:354][862]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 351.193634, Update Interval: 334.520081
